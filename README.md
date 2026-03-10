@@ -13,9 +13,9 @@ O princípi básico é que toda alteração em infraestrutura deve ser documenta
 
 ### Exemplo simples de registro
 
-**Data:** 09/03/2026
-**Servidor:** web01
-**Responsável:** Humberto
+**Data:** 09/03/2026 \n
+**Servidor:** web01 \n
+**Responsável:** Humberto \n
 
 **Alteração:**
 Atualização do PHP de 8.2.26 para 8.2.30
@@ -39,4 +39,7 @@ apt install php8.2=8.2.26
 
 # Servidores (links)
 
-* [buchenavia](buchenavia.md) - VM dentro do Datacenter, hospeda o GLPI SUGESP (SIMAP) e VISIT.
+* [buchenavia](/Servidores/buchenavia.md) - VM dentro do Datacenter, hospeda o GLPI SUGESP (SIMAP) e VISIT.
+
+# Incidentes e Problemas (links)
+* [Incidentes e Problemas](incidentes.md)
