@@ -13,9 +13,9 @@ O princípi básico é que toda alteração em infraestrutura deve ser documenta
 
 ### Exemplo simples de registro
 
-**Data:** 09/03/2026 \n
-**Servidor:** web01 \n
-**Responsável:** Humberto \n
+**Data:** 09/03/2026
+**Servidor:** web01
+**Responsável:** Humberto Vilar Arouca
 
 **Alteração:**
 Atualização do PHP de 8.2.26 para 8.2.30
