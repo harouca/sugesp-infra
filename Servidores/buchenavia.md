@@ -17,3 +17,7 @@
 
 **Sites hospedados:**
 - service.sugesp.ro.gov.br (GLPI)
+
+**Atualização do GLPI com Script**
+[Instalação / Atualização do GLPI](/runbooks/glpi_instalação.md)
+[Script de atualização do GLPI](/runbooks/glpi_script.md)
