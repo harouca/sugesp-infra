@@ -7,16 +7,17 @@ Antes de efetuar a atualização, é necessário entender e saber como está a a
 No servidor hospedado ele está instalado em /opt/sgp/www no diretório GLPI. Seguimos o padrão da versão 9, da documentação oficial.
 
 ### Instalação atual ###
-**Local**: /opt/sgp/www/glpi
-**Local do HTML**: /opt/sgp/www/html
+**Local**: /opt/sgp/www/glpi  
+**Local do HTML**: /opt/sgp/www/html  
 
 ### Configuração do GLPI ###
-/etc/glpi - Configurações do GLPI
-/var/lib/glpi - Arquivos do GLPI - Variáveis
-/var/log/glpi - Logs do GLPI
+/etc/glpi - Configurações do GLPI  
+/var/lib/glpi - Arquivos do GLPI - Variáveis  
+/var/log/glpi - Logs do GLPI  
 
 Para que o GLPI saiba onde estão os arquivos, eles são definidos no arquivo:
 /opt/sgp/www/glpi/inc/downstream.php
+
 '''
 ~~~php
 <?php
