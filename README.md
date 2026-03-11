@@ -2,7 +2,7 @@
 
 Este repositório contém a infraestrutura da SUGESP. Repositório com a finalidade de documentar as alterações em servidores e demais ativos de inraesrtutura, conforme as boas práticas de Gestão de Infraestrutura e Governança de TI.
 
-O princípi básico é que toda alteração em infraestrutura deve ser documentada neste repositório, seguindo o layout básico e padronizado, conforme abaixo:
+O princípio básico é que toda alteração em infraestrutura deve ser documentada neste repositório, seguindo o layout básico e padronizado, conforme abaixo:
 
 * Data e hora
 * Responsável
@@ -28,6 +28,7 @@ Correção de vulnerabilidade de segurança.
 apt update
 apt upgrade php8.2*
 ```
+
 
 **Impacto:**
 Reinicialização do Apache.
