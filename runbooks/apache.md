@@ -1,4 +1,4 @@
-## Serviço Apache/2.4.66 (Debian) em Buchenavia ##
+# Serviço Apache/2.4.66 (Debian) em Buchenavia #
 
 Roda nesse web Server os seguintes sites:
 
@@ -12,8 +12,8 @@ Local de instalação:
 /usr/share/apache2 
 
 
-##Conteúdo di DIRETÓRIO /etc/apache2/sites-available##
-###000-default.conf###
+## Conteúdo di DIRETÓRIO /etc/apache2/sites-available ##
+### 000-default.conf ###
 ~~~bash
 <VirtualHost *:80>
         # The ServerName directive sets the request scheme, hostname and port that
@@ -48,7 +48,7 @@ Local de instalação:
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 ~~~
 
-###visit.conf###
+### visit.conf ###
 ~~~bash
   Alias /visit /opt/sgp/www/visit
 
@@ -59,7 +59,7 @@ Local de instalação:
 ~~~
 
 
-###fotografia.conf###
+### fotografia.conf ###
 ~~~bash
 Alias /fotografia /opt/sgp/www/fotografia
 
@@ -69,7 +69,7 @@ Alias /fotografia /opt/sgp/www/fotografia
 ~~~
 
 
-##Conteúdo di DIRETÓRIO /etc/apache2/conf-enabled##
+## Conteúdo do DIRETÓRIO /etc/apache2/conf-enabled ##
 ~~~bash
 Alias /glpi /opt/sgp/www/glpi/public
 <Directory "/opt/sgp/www/glpi/public">
