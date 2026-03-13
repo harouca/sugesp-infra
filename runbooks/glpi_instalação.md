@@ -44,14 +44,14 @@ chown www-data:www-data /var/log/glpi -R
 chown www-data:www-data /opt/sgp/www/html/glpi/marketplace -Rf
 
 # Ajustar permissões de arquivos (0644) e diretórios (0755)
-find /opt/sgp/www/html/glpi/ -type f -exec chmod 0644 {} \;
-find /opt/sgp/www/html/glpi/ -type d -exec chmod 0755 {} \;
-find /etc/glpi       -type f -exec chmod 0644 {} \;
-find /etc/glpi       -type d -exec chmod 0755 {} \;
-find /var/lib/glpi   -type f -exec chmod 0644 {} \;
-find /var/lib/glpi   -type d -exec chmod 0755 {} \;
-find /var/log/glpi   -type f -exec chmod 0644 {} \;
-find /var/log/glpi   -type d -exec chmod 0755 {} \;
+find /opt/sgp/www/glpi/ -type f -exec chmod 0644 {} \;
+find /opt/sgp/www/glpi/ -type d -exec chmod 0755 {} \;
+find /etc/glpi -type f -exec chmod 0644 {} \;
+find /etc/glpi -type d -exec chmod 0755 {} \;
+find /var/lib/glpi -type f -exec chmod 0644 {} \;
+find /var/lib/glpi -type d -exec chmod 0755 {} \;
+find /var/log/glpi -type f -exec chmod 0644 {} \;
+find /var/log/glpi -type d -exec chmod 0755 {} \;
 
 ~~~
 
